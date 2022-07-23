@@ -1,18 +1,6 @@
-const http = require('http');
-const fs = require('fs');
-
-const PORT = 8080;
-
-fs.readFile('./index.html', function (err, html) {
-  if (err) throw err;
-
-  http
-    .createServer(function (request, response) {
-      response.writeHeader(200, {
-        'Content-Type': 'text/html',
-      });
-      response.write(html);
-      response.end();
-    })
-    .listen(PORT);
-});
+const express = require('express');
+const port = 8080; // you can use any port
+const app = express();
+app.use(express.static(__dirname + '/public'));
+app.listen(port);
+console.log('server on' + port);
