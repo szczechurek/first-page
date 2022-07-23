@@ -2,11 +2,14 @@
   "name": "first-page",
   "version": "1.0.0",
   "description": "Training about creating website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "szczechurek",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
 }
