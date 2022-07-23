@@ -4,7 +4,8 @@
   "description": "Training about creating website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "szczechurek",
