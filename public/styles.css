@@ -1,0 +1,35 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+.website {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  height: 80px;
+  width: calc(100% - 2rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}
+.navbar__logo {
+  height: 60px;
+}
+
+.navbar__nav {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.navbar__nav__item {
+}
+.navbar__nav__item > a {
+  text-decoration: none;
+}
