@@ -31,8 +31,8 @@
   list-style: none;
   gap: 2rem;
 }
-.navbar__nav__item {
-}
+
+/* TODO: add stylying for nav item */
 .navbar__nav__item > a {
   text-decoration: none;
 }
