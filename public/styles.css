@@ -7,6 +7,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: calc(100% - 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .navbar {
@@ -32,4 +35,11 @@
 }
 .navbar__nav__item > a {
   text-decoration: none;
+}
+
+.website__header {
+  font-size: 4rem;
+}
+.website__header {
+  margin-bottom: 2rem;
 }
